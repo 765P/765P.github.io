@@ -1,3 +1,1 @@
-$(window).load(function() {
-	$('#load').hide();
-);
+$(window).load(function() { $('#load').hide(); } );
