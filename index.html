@@ -3,12 +3,19 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="/js/common_js.js"></script>
 	<link href="/css/common_css.css" rel="stylesheet"/>  
+	<link rel="stylesheet" href="css/menu.css">
 	<meta charset="utf-8">
 	<title>Welcome</title>
 	<style>
 		#main_img {
 			height: 461.16px;
 			width: 820px;
+		}
+		#menu { 
+			position: absolute;
+			top: 470px;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 	</style>
 </head>
@@ -25,6 +32,22 @@
 	<br>
 	<br>
 	<br>
-	<center><img id="main_img" src="https://raw.githubusercontent.com/765P/we_believe_Ahn/master/images/ahn.jpg"></center>
+	<center>
+		<img id="main_img" src="https://raw.githubusercontent.com/765P/we_believe_Ahn/master/images/ahn.jpg">
+		<div id="menu">
+		<nav>
+		<ul>
+			<li><a href="#">신도등록</a></li>
+			<li><a href="#">SNS</a>
+				<ul>
+					<li><a href="https://www.facebook.com/jhahn912">안센세 페북</a></li>
+					<li><a href="https://www.facebook.com/SaintAhn/">팬 페이지</a></li>
+				</ul>
+			</li>
+			<li><a href="#">뻘글</a></li>
+		</ul>
+		</nav>
+		</div>
+	</center>
 </body>
 </html>
