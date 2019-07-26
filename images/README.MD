@@ -1,1 +1,1 @@
-*file
+![](kaede.gif)
