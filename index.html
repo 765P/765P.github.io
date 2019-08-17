@@ -1,78 +1,35 @@
 <!DOCTYPE html>
 <html>
-<title>Welcome to Edu ICO Page</title>
+<title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-#bgBlur:before {
-  content: '';
-  position: absolute;
-  top: 0; left:0; right:0; bottom:0;
-  background: inherit;
-  z-index:-1;
-  filter: blur(6px); 
-  -webkit-filter: blur(6px); 
-  -moz-filter: blur(6px);
-  -o-filter: blur(6px);
-  filter:url(#blur);
-}
 body,h1 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
-#blurExample, #noneblurExample {
-background: url(https://www.isasa.org/wp-content/uploads/2018/05/systemic-evaluation.jpg) center;
-background-size:cover;
-width:200px;
-height:250px;
-position: relative;
-z-index:1;
-float:left;
-margin:10px;
-overflow:hidden;
-}
-#bgBlur:before {
-  content: '';
-  position: absolute;
-  top: 0; left:0; right:0; bottom:0;
-  background: inherit;
-  z-index:-1;
-  filter: blur(5px); 
-  -webkit-filter: blur(6px); 
-  -moz-filter: blur(6px);
-  -o-filter: blur(6px);
-  -ms-filter: blur(6px);
-  filter: url(#blur);
-}
-h1 {
-  color:#222;
-  margin:1em;
-}
-svg {
-height:0
+.bgimg {
+  background-image: url('https://www.isasa.org/wp-content/uploads/2018/05/systemic-evaluation.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
 }
 </style>
   
 <body>
-
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white" id="bgBlur blurExample">
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    Logo Test
+    Logo
   </div>
   <div class="w3-display-middle">
     <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Edu Token Comming soon</p>
+    <p class="w3-large w3-center">35 days left</p>
   </div>
   <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="765p.github.io" target="_blank">EDU Token</a>
+    Powered by <a href="765p/github.io">Edu ICO</a>
   </div>
 </div>
 
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-    <filter id="blur">
-        <feGaussianBlur stdDeviation="6" />
-    </filter>
-</svg>
 </body>
 </html>
